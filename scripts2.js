@@ -81,6 +81,8 @@ const renderNumberUs = () => {
 
   const renderLine = document.createTextNode(number);
   document.getElementById("numberUs").appendChild(renderLine);
+
+  console.log(numberDisplay);
 };
 
 const renderNumberThey = () => {
